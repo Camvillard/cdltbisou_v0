@@ -9,7 +9,16 @@
 	External Modules/Files
 \*------------------------------------*/
 
-// Load any external files you have here
+/**
+ * Initialize theme default settings
+ */
+require get_template_directory() . '/inc/theme-settings.php';
+
+/**
+ * Theme setup and custom theme supports.
+ */
+require get_template_directory() . '/inc/setup.php';
+
 
 /*------------------------------------*\
 	Theme Support
